@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "cloudinary-core": "^2.11.4",
     "knex": "0.21.18",
     "mime-types": "^2.1.27",
     "pg": "^8.7.1",
@@ -27,6 +28,7 @@
     "strapi-plugin-i18n": "3.6.8",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-provider-upload-cloudinary": "^3.6.8",
     "strapi-utils": "3.6.8"
   },
   "author": {
