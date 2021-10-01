@@ -11,8 +11,8 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "cloudinary-core": "^2.11.4",
     "cloudinary": "",
+    "cloudinary-core": "^2.11.4",
     "knex": "0.21.18",
     "mime-types": "^2.1.27",
     "pg": "^8.7.1",
