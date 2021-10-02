@@ -1,8 +1,16 @@
-const cloudinary = require("cloudinary");
+module.exports = ({ env }) => ({
+  
+  upload: {
+    provider: "cloudinary",
+    providerOptions: {
+      cloud_name: env("CLOUDINARY_NAME"),
+      api_key: env("CLOUDINARY_KEY"),
+      api_secret: env("CLOUDINARY_SECRET"),
+    },
+    actionOptions: {
+      upload: {},
+      delete: {},
+    },
+  },
 
-
-cloudinary.config({
-  CLOUDINARY_CLOUD_NAME: "hdxqvjx8d",
-  CLOUDINARY_API_KEY: "226391955645232",
-  CLOUDINARY_API_SECRET: "mM68VrokMFI-EzeTwGWh-x9HUnI",
 });
